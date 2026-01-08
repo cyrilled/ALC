@@ -1,0 +1,63 @@
+CR005 Architecture et contraintes techniques
+============================================
+
+:Date: 03-18 12h-17h
+:Type: Réunion
+:PartiesPrenantes: ABI, HSI, KWG, MPA, PSO
+:Lieu: Paris-AccessIT
+:Organisateur: ABI
+:Rapporteur: KWG
+:Presents: ABI, HSI, KWG, MPA
+:Objectifs: Définir l'architecture et revenir sur les fonctions associées à chaque noeud.
+
+.. attention::
+    Ce compte rendu est un *document de travail* et n'est pas contractuel.
+
+#. AccessIT rappelle l'architecture classique des applications déjà mises en place par leur soin.
+#. Il n'y a aucune raison a priori de changer d'architecture sachant qu'elle fonctionne bien dans différents contextes.
+#. Les matériels sécurité (bissas, caméras, etc.) sont toujours connectés directement au serveur de contrôle.
+#. Ce serveur permet de gérer en temps réel les matériels en les commandant par leurs drivers
+#. Le serveur d'applications doit être plus ou moins puissant selon le volume de données à gérer et le nombre de transactions à mettre en œuvre.
+#. Pour les sites de Ryokan ou de Morrocoy, il n'y aura a priori pas de soucis, mais AccessIT a déjà eu affaire à des sites avec plus de 100 points d'accès, 5 000 badgeurs, avec des historiques à conserver sur 5 ans (base militaire en Sibérie).
+#. De tels clients devront pouvoir être gérés avec iAccess.
+#. Contrairement aux architectures traditionnelles, il n’y aura pas de poste fixe pour les gardiens.
+#. Les gardiens seront équipés de smartphones Samsung pour gérer les incidents.
+#. C'est un grand changement car jusque-là des appareils spécialisés ou des postes fixes étaient utilisés.
+#. Les applis des smartphones des gardiens seront connectées au serveur applicatif via une connexion sécurisée https et un réseau wifi interne sécurisé.
+#. AccessIT mentionne qu'il est possible d'installer des systèmes de brouillage et bien d'autres choses, qui rendent ce réseau à la fois sûr et fiable.
+
+    .. figure:: media/samsung.jpg
+        :align: center
+
+        Fig. 1 : Smartphones des gardiens
+
+#. Les incidents doivent être localisés (e.g. bissas, porte, point d'accès et/ou zone) et gardés dans l'historique.
+#. En fonction des cas, et la plupart du temps après s'être rendu sur place, le gardien choisit de prendre en charge un incident ou de le laisser aux autres gardiens.
+#. Lorsqu'un gardien prend un incident, celui change d'état ("nouveau" -> "affecté"). A partir de ce moment c'est lui qui contrôle totalement le bissas concerné jusqu'à ce qu'il déclare l'incident clos. 
+#. Pour régler l'incident le gardien agit sur les portes du bissas depuis son smartphone.
+#. Il peut ouvrir ou fermer une des deux portes du bissas
+#. Un gardien peut commenter un incident une fois qu'il l'a réglé, avec un texte.
+#. Evidemment si nécessaire les gardiens appelleront les services compétents (urgences, police, armée, etc.)
+#. La discussion sur le rôle des gardiens s'est achevée sur la conclusion suivante.
+#. L'IHM des gardiens doit être très ergonomique vu l'utilisation à la fois intensive et rapide attendue.
+#. _
+#. Le poste superviseur (toujours un seul, pour des raisons de sécurité) et les postes administrateurs (autant que nécessaire) seront connectés au serveur applicatif par une liaison Ethernet, avec un client lourd utilisant le protocole https.
+#. Il s'agit dans les deux cas de PCs sous Windows.
+#. _
+#. Les administrateurs gèrent non seulement les badgeurs et leurs inscriptions à des groupes, mais aussi les problèmes liés à la perte d'un badge.
+#. Lorsqu'un badge est perdu, volé (y compris via une agression), le badgeur est tenu d'en informer immédiatement le centre de sécurité.
+#. Un badge n'est associé qu'à une seule personne à la fois et une personne ne peut posséder qu'un badge (pour un site) à un moment donné.
+#. Les badgeurs sont connus au minimum par leur nom et leur prénom et un numéro d'identité national (NIN).
+#. Le NIN utilisé dépend des personnes et des pays considérés.
+#. Ce peut être le numéro de passeport, le numéro de carte d'identité ou tout autre document selon le pays.
+#. Un mail et deux numéros de téléphone peuvent également être renseignés lors de l'enregistrement.
+#. A chaque fois qu'un badge est donné à quelqu'un, qu'il est annulé suite à une perte ou un vol, l'opération doit être enregistrée dans l'historique.
+#. Toutes ces opérations sont effectuées par les administrateurs de groupes.
+#. Lorsqu'un badgeur appartient à plusieurs groupes, et si ces groupes sont gérés par différents administrateurs, n'importe quel de ces administrateurs peut enregistrer la perte du badge.
+#. Finalement, le serveur applicatif est le seul élément de iAccess a être connecté à internet via tcp-ip.
+#. C'est lui qui gèrera les web-services mentionnés auparavant.
+#. _
+#. Il est fait état d'un démarrage éminent de la phase de collecte des exigences.
+#. Les spécifications UML seront faites par le groupe M1 de la MIAGE de Grenoble à partir des comptes rendus de réunions réalisés jusque-là.
+#. Les personnels de la société AccessIT ne seront pas disponibles dans les semaines qui viennent.
+#. Il risque d'en être de même des personnels de MIAGE Grenoble ayant participé à ces réunions.

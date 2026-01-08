@@ -1,0 +1,120 @@
+CR004 Matériels de contrôle d'accès 
+===================================
+
+:Date: 03-15-07h-20h
+:Type: Réunion
+:PartiesPrenantes: KWG, CMS, YBI, MPA, ZSH
+:Lieu: Berlin-Bissis
+:Organisateur: KWG
+:Rapporteur: KWG
+:Presents: KWG, CMS, YBI, MPA, ZSH
+:Objectifs: Architecture et discussions sur les fonctionnalités gardien
+
+.. attention::
+    Ce compte rendu est un *document de travail* et n'est pas contractuel.
+
+Nouvelles parties prenantes :
+ - Clarissa Maris (CMS) - Bissis, Berlin
+ - Yohav El Benali (YBI) - Bissis, Berlin
+
+#. La réunion a eu lieu dans les locaux de Bissis.
+#. Bissis est sur le point de commercialiser des sas de sécurité révolutionnaires.
+#. Ces systèmes physiques seront prochainement commercialisés sous le nom de *Bissas*.
+#. Bissis souhaite accélérer la mise sur le marché des bissas et souhaite donc intégrer le consortium pour
+   participer à l'élaboration de iAccess.
+#. Il est entendu que Bissis fournira ces Bissas et pour chaque modèle un driver logiciel pour l'intégrer à iAccess
+#. Par contre un problème est vite apparu pendant la réunion.
+#. Il sera impossible de voir les bissas avant au moins deux mois, et cela pour des problèmes de confidentialité.
+#. Vu les très nombreuses innovations, de multiples brevets sont en cours d'acquisition et ce procédé est long.
+#. La direction ne souhaite prendre aucun risque de fuites et même en interne seuls certains employés (e.g. YBI) ont une vision globale des bissas tel qu'ils seront présentés dans quelques mois.
+#. Après quelques échanges et discussions animées, il est apparu que ce ne devrait cependant pas être un problème pour iAccess.
+#. Bissis fournira des simulateurs pour que puissent commencer les tests lorsque nécessaires.
+#. Toutes les parties logicielles sur le serveur applicatif pourront être réalisées en amont grâce à la simulation des bissas et des caméras pilotées par les drivers à installer sur le serveur de contrôle.
+#. AccessIT, qui travaille depuis longtemps avec Bissis, est confiant dans cette démarche.
+#. L'API des drivers de Bissas est fournie dès maintenant par Bissis (en annexe de ce compte-rendu)
+#. L'utilisation d'une spécification UML a été soulignée comme un point essentiel dans ce contexte tendu.
+#. Il a été convenu que MIAGE Grenoble fournirait rapidement des scénarios qui serviront à écrire les tests de la version pour Chimiotis.
+#. Il s'agit bien entendu de tester tous les scénarios de passage : sans incident ou avec incident générant des alarmes envoyées aux gardiens.
+#. Pour comprendre le fonctionnement des bissas, Bissis renvoie vers un système proposé par un de ses concurrents.
+#. Les bissas ressembleront *par certains côtés* au système "Cilindro Bibussola" de AllUserIndustrie_:
+
+    .. _CR004Fig1:
+
+    .. figure:: media/cilindroBibussola.jpg
+        :align: center
+
+        Fig. 1 : *"CILINDRO BIBUSSOLA"* par AllUserIndustrie_ (cf |videoBibussola|)
+
+#. Le Bibussola n'est là qu'à titre d'illustration ; les bissas ont de nombreuses différences.
+#. Le matériel est extrêmement performant (à condition que les contrôles logiciels suivent).
+#. Les bissas sont symétriques
+#. Ils possèdent systématiquement des lecteurs sur les deux faces extérieures (contrairement aux Bibussolas).
+#. Ils peuvent ainsi contrôler à la fois l’entrée et la sortie.
+#. Ce qui permet à tout moment de savoir qui est présent dans une zone.
+#. Cette fonction est nécessaire entre autres en cas d'incendie ou d'accident industriel (par exemple à Chimiotis).
+#. Les lecteurs des bissas sont compatibles avec des badges RFID.
+#. Ils sont équipés d'une LED qui peut prendre trois couleurs (vert, orange, rouge).
+#. Tout comme le Cilindro Bibussola, les bissas possèdent un détecteur de présence à l'intérieur du sas qui peut détecter la présence ou l'absence d'une personne, la présence d'objet en métal et si plus d'une personne est dans le bissas (piggybacking)
+    .. _CR004Fig2:
+
+    .. figure:: media/tailgaiting.jpg
+        :align: center
+
+        Fig. 2 : Incident de « piggybacking (cf |videoBibussola| seconde 52)
+
+#. En fait les bissas sont entièrement contrôlés par le driver fourni par Bissis (API fournie en annexe).
+#. Ces drivers seront installés sur le serveur de contrôle.
+#. Chaque bissas sera connecté au panneau de brassage du serveur de contrôle par une connexion RFC 821
+#. Bissis propose deux types de bissas, les bissas Xtra et les bissas Meta.
+#. Les bissas Xtra permettent une haute sécurité mais sont plus lents que les Meta.
+#. Ces bissas sont préconisés par AccessIT pour l'usine de Morrocoy.
+#. Ils permettent d'être sûr (à 98%) que le badgeur est bien la personne associée au badge.
+#. La personne ne peut en effet sortir du sas qu'après avoir effectué une identification physique.
+#. Cette identification physique se fait à l'intérieur du sas, après être entré dans le bissas avec une identification par badge.
+#. L'identification physique est une empreinte digitale
+#. Elle devra se faire en moins de 10 secondes.
+
+#. Si la personne n'est pas autorisée à sortir un incident sera généré par le bissas Xtra.
+#. Le badgeur sera alors bloqué dans le sas et devra attendre qu'un gardien vienne le débloquer.
+#. Il en sera de même si le détecteur de métaux intégré dans les Xtra se déclenche.
+
+#. Les bissas comprennent à l'intérieur un haut-parleur permettant de diffuser des messages audio prédéfinis
+
+#. ---
+
+#. AccessIT insiste de nouveau sur le fait que différents scénarios devront donner lieu à des incidents envoyés aux gardiens.
+#. C'est le cas par exemple si un badgeur ne sort pas du sas au bout de 10 secondes.
+#. C'est également le cas si quelqu'un bloque une porte (avec un pied ou autre).
+
+#. Une fois de plus Bissis propose le matériel pour gérer les accès, mais leurs fonctions devront être commandées depuis le serveur de contrôle via les drivers fournis.
+#. Evidemment les digitCodes transmis par le lecteur d'empreinte digitale devront être comparés aux données disponibles sur le serveur applicatif.
+
+#. L'identification des badges et surtout le calcul des autorisations lors d'un passage de badge devra toujours être faite en moins de 5 secondes.
+#. Sachant que l'on envisage d'utiliser ces matériels dans des stades avec plus de 50 entrées ou sorties simultanément un soin tout particulier devra être apporté à cet aspect.
+
+#. Les bissas doivent être reliés au serveur de contrôle du site via des liaisons "RFC 321"; les caméras via des liaisons "RFC 821".
+#. Le matériel et les protocoles associés sont en cours d'être brevetés par Bissis.
+#. Il doit y avoir une salle de contrôle par site ; elle contient le serveur de contrôle.
+#. Il s'agit d'un matériel spécialisé quasi temps réel auquel les bissas sont connectés chacun par un câble sur un panneau de brassage (jusqu'à des centaines sur certains sites).
+#. Ce serveur de contrôle devra être connecté au serveur applicatif via une liaison TCP/IP sécurisée.
+#. Seuls les gardiens ont accès à la salle de contrôle.
+
+#. En conclusion de cette réunion (longue), il apparaît clairement que les technologies innovantes proposées par Bissis en font un partenaire idéal.
+#. De plus, le matériel n'étant pas disponible à ce jour, il est essentiel de préparer les scénarios à prendre en compte et de les spécifier de manière rigoureuse.
+#. Bissis fournira des simulateurs matériels pilotables par le driver fourni.
+#. Dans un premier temps des tests seront ainsi effectués à partir des scénarios fournis par MIAGE Grenoble.
+#. Une réunion est prévue (03-18) pour discuter des points non abordés jusque-là et notamment de l'architecture de déploiement.
+
+
+.. ............................................................................
+
+.. _AllUserIndustrie:
+    http://www.archiexpo.com/prod/alluser-industrie/
+    sliding-doors-commercial-buildings-security-automatic-52110-624140.html#product-item_142100
+
+.. |videoBibussola| replace::
+
+    :download:`VideoBibussola <./media/videoBibussola.mp4>`
+
+
+.. _`QR codes`: http://en.wikipedia.org/wiki/QR_code

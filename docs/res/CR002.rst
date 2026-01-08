@@ -1,0 +1,109 @@
+CR002 Réunion iAcces pour Chimiotis
+===================================
+
+:Date: 02-17 15h-23h
+:Type: Réunion
+:Lieu: Morrocoy-Chimiotis
+:PartiesPrenantes: ABI, JDR, PSO, AGO
+:Organisateur: ABI
+:Rapporteur: KWG
+:Presents: ABI, JDR, PSO, AGO,
+:Objectifs: Cas d'étude Usine de Morrocoy
+
+.. attention::
+    Ce compte rendu est un *document de travail* et n'est pas contractuel.
+
+
+Nouvel intervenant, directeur de l'usine à Morrocoy :
+ - Eliezer LAEMMEL (ELL) - Morrocoy, Chimiotis
+
+#. Grâce aux contacts d'AGO, une visite du site chimique de Morrocoy a été organisée opportunément.
+#. Chimiotis, la société gérante désire s’équiper de bissass pour son système d’accès sécurisé.
+#. Grâce aux bissas, cette installation a été considérée comme viable par AccessIT.
+#. AccessIT et Bissis seront les seuls à pouvoir équiper des sites avec des bissas.
+#. Il s'agit donc d'un prospect chaud pour iAccess.
+#. Les différents types de bissas ont été choisis en fonction du niveau de sécurité à atteindre.
+#. Il est rappelé qu'une présentation des bissas aura lieu à Berlin - Bissis.
+#. Un premier plan sécurité a été créé à partir des informations fournies par Chimiotis.
+
+    .. _CR003Fig1:
+
+    .. figure:: media/morrocoy.png
+        :align: center
+
+        Fig. 1 : Potentiel plan sécurité pour le site de Morrocoy
+
+#. Les différentes zones du site ont été représentées sur le plan sécurité.
+#. Par contre les bâtiments, installations et autres espaces non sécurisés n'y sont pas.
+#. De même pour les entrées de véhicules et autres entrées gérées par des vigiles.
+
+#. Le site Morrocoy accueille les salariés de l'entreprise. 
+#. Différents groupes de personnes autorisées devront être définis.
+#. On estime qu'il y aura environ 30 groupes.
+#. Même si différents groupes de badgeurs ont été identifiés, d'autres pourraient apparaître.
+#. Un superviseur unique par site pourra créer des administrateurs pour ces groupes. Il leur donnera des droits sur la gestion d'une ou plusieurs zones.
+#. Chaque groupe d'un site sera alors créé et géré par un administrateur et pas par le superviseur.
+#. Par exemple l'administrateur du personnel RH pourra leur affecter des badges et définir les zones auxquelles ils ont accès et à quels moments. 
+#. Les administrateurs de production s'occuperont des ouvriers, etc.
+#. Bien entendu les administrateurs de groupe ne pourront pas donner à un groupe l'accès à des zones dont il n'est pas chargé. 
+
+#. Le nombre de badgeurs par groupe va de 1 à 300 environ.
+#. Les ouvriers font les 3 x 8 mais de manière relativement régulière.
+#. Les membres de chaque groupe sont finalement assez stables.
+#. En effet le personnel de l'usine ne change que rarement et les groupes sont basés sur des règles relativement stables dans chaque zone.
+
+#. Ci-dessous un vieil exemple de plan d'autorisation fourni par l'administration de Chemiotis.
+
+    .. _CR003Fig2:
+
+    .. figure:: media/morrocoyAutorisations.jpg
+        :align: center
+
+        Fig. 2 : Plan d'autorisation pour le site de Morrocoy
+
+#. Les zones autorisées sont présentées pour chaque groupe à droite.
+#. A gauche sont représentées les périodes d'autorisation.
+#. Après discussion avec l'administration il apparait qu'il s'agit d'une version très simplifiée.
+#. En effet l'usine devant tourner 24h/24, 365j/365, il faut aussi des autorisation pour les jours fériés et les week-ends.
+#. De plus les autorisations ne sont pas toutes pour des horaires prédéfinis (début de journée, fin de journée, nuit, jour, tout le temps) mais peuvent concerner d'autres horaires.
+#. Les autorisations sont définies à l'année.
+#. Cette année, selon un exemple donné par ELL, le groupe GY peut accéder aux zones PT et PO en semaine de 8h à 12h pendant l'été.
+#. Et GX peut accéder aux zones SD et X le week-end de 16h à 23h de mars à avril.
+#. Il faudra absolument définir des autorisations plus fines dans iAccess pour représenter ce genre de périodes.
+#. Dans tous les cas pour une période un groupe peut accéder toujours aux mêmes zones (cf. CR003Fig2_).
+#. Une autorisation doit être un triplet (groupe, période, zones).
+#. Par exemple, en reprenant l'exemple donné par ELL, on doit pouvoir définir deux autorisations comme suit.
+
+    .. table:: Tab. 1 : Exemple ELL 01-06
+
+        +----------+----------------------------------+------+
+        | Groupe   |               Période            | Zones|
+        +==========+==================================+======+
+        | Techn1   | xxxxxxJASxxx LMMJVxx 08:00-12:00 | PO,PT|
+        +----------+----------------------------------+------+
+        | OuvrNuit | xxMAxxxxxxxx xxxxxSD 16:00-23:00 | U1,X |
+        +----------+----------------------------------+------+
+
+#. Les autorisations sous forme de triplets pourraient aussi convenir a priori pour les autres sites gérés par iAccess.
+#. Il s'agit en effet d'une représentation générale et sans doute satisfaisante.
+
+#. Comme sur tous les sites, les gardiens peuvent aller dans toutes les zones dont la salle de contrôle.
+#. Ils peuvent depuis leur smartphone débloquer l’accès ou la sortie d’une personne bloquée suite à un incident.
+#. Un élément important à Morrocoy concerne les règles à appliquer en cas d'incendie dans une zone.
+#. Tous les points d'accès doivent être ouverts automatiquement.
+#. Il faudra donc prendre en compte les systèmes à incendie et les interfacer avec iAccess.
+#. Actuellement l'usine est gardée par 60 gardiens, 24h/24.
+#. Avec iAccess on estime que 4 gardiens seraient suffisants, d'où 12 en 3x8.
+
+#. Comme pour les autres sites, le serveur de contrôle sera installé dans la salle de contrôle.
+
+#. La conservation de l'historique des événements étant imposée par la réglementation du Vénézuéla, cette fonctionnalité devra être intégrée dans iAccess.
+
+#. Un web service permettra à des systèmes externes (e.g. systèmes de paie / de contrôle de présence) d'importer les événements d'accès de iAccess (horaire d'entrée pour chaque point d'accès).
+#. Ce web service devra être sécurisé pour des aspects de confidentialité mais aussi de sécurité (e.g. heures d'accès des gardiens, etc).
+
+#. En conclusion, la visite sur le site de Morrocy a été très instructive.
+#. Il correspond bien aux fonctionnalités de base d'iAccess.
+#. AccesIT confirme son intérêt de développer une version d'iAccess pour ce site.
+#. Cette version sera la première développée et sa conception sera faite au plus vite par MIAGE Grenoble.
+#. La prochaine réunion se fera à Neuilly - Ryokan.
