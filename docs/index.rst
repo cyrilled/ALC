@@ -1,12 +1,11 @@
-.. iAccess documentation master file, created by
-   sphinx-quickstart on Fri Nov 29 15:55:25 2019.
+.. iAccess documentation master file
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 iAccess
 =============
 
-Ce site regroupe l'ensemble des comptes rendus de réunion ayant eu lieu jusqu'à présent dans le cadre du projet iAccess. Ce projet concerne la gestion des accès de sites comme des usines, des lieux de cultes, des hôpitaux, des sites sportifs, des complexes commerciaux, etc. L'objectif du projet consiste à développer le logiciel iAccess dans le cadre d'un consortium mettant en oeuvre différentes parties prenantes au sein de différentes organisations (à ce jour, IM2AG, Batemis, Bissis et Competis).
+Ce site regroupe l'ensemble des comptes rendus de réunion ayant eu lieu jusqu'à présent dans le cadre du projet ALC. Ce projet concerne la gestion des accès de sites comme des usines, des lieux de cultes, des hôpitaux, des sites sportifs, des complexes commerciaux, etc. L'objectif du projet consiste à développer le logiciel iAccess dans le cadre d'un consortium mettant en oeuvre différentes parties prenantes au sein de différentes organisations (à ce jour, IM2AG, Batemis, Bissis et Competis).
 
 Comptes rendus de réunions
 --------------------------

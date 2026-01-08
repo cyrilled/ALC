@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'iAccess'
-copyright = '2019, UFR IM2AG'
+project = 'ALC'
+copyright = '2026, UFR IM2AG'
 author = 'UFR IM2AG'
 master_doc = 'index'
 
