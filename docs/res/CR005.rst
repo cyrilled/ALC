@@ -19,7 +19,7 @@ CR005 Architecture et contraintes techniques
 #. Ce serveur permet de gérer en temps réel les matériels en les commandant par leurs drivers
 #. Le serveur d'applications doit être plus ou moins puissant selon le volume de données à gérer et le nombre de transactions à mettre en œuvre.
 #. Pour les sites de Ryokan ou de Morrocoy, il n'y aura a priori pas de soucis, mais AccessIT a déjà eu affaire à des sites avec plus de 100 points d'accès, 5 000 badgeurs, avec des historiques à conserver sur 5 ans (base militaire en Sibérie).
-#. De tels clients devront pouvoir être gérés avec iAccess.
+#. De tels clients devront pouvoir être gérés avec AirLocksControl.
 #. Contrairement aux architectures traditionnelles, il n’y aura pas de poste fixe pour les gardiens.
 #. Les gardiens seront équipés de smartphones Samsung pour gérer les incidents.
 #. C'est un grand changement car jusque-là des appareils spécialisés ou des postes fixes étaient utilisés.
@@ -54,7 +54,7 @@ CR005 Architecture et contraintes techniques
 #. A chaque fois qu'un badge est donné à quelqu'un, qu'il est annulé suite à une perte ou un vol, l'opération doit être enregistrée dans l'historique.
 #. Toutes ces opérations sont effectuées par les administrateurs de groupes.
 #. Lorsqu'un badgeur appartient à plusieurs groupes, et si ces groupes sont gérés par différents administrateurs, n'importe quel de ces administrateurs peut enregistrer la perte du badge.
-#. Finalement, le serveur applicatif est le seul élément de iAccess a être connecté à internet via tcp-ip.
+#. Finalement, le serveur applicatif est le seul élément de AirLocksControl a être connecté à internet via tcp-ip.
 #. C'est lui qui gèrera les web-services mentionnés auparavant.
 #. _
 #. Il est fait état d'un démarrage éminent de la phase de collecte des exigences.

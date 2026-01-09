@@ -1,4 +1,4 @@
-CR001 Réunion de lancement de iAccess
+CR001 Réunion de lancement de AirLocksControl
 =====================================
 
 :Date: 02-01 08h-10h
@@ -25,15 +25,15 @@ En ce début de projet, les parties prenantes sont les suivantes :
  - Zork SWISH (ZSH) – AccessIT, Autriche
  - Cassandra COHEN (CCN) - MIAGE, Grenoble
 
-#. Le présent projet a été baptisé iAccess.
-#. Les demandes de sécurisation de sites et de bâtiments se développent suite aux attentats des dernières années. Il s'agit d'une opportunité commerciale pour les sociétés de sécurité comme AccessIT.
+#. Le présent projet a été baptisé AirLocksControl.
+#. La demande pour des systèmes de contrôle d'accès de sites et de bâtiments encore plus sécurisés se développe pour des sites publics (stades, salles de concert) que privés (usines chimiques, laboratoires de biologie, centrales nucléaires). C'est une opportunité commerciale majeure pour les sociétés de sécurité comme AccessIT.
 #. La société AccessIT est spécialisée dans les systèmes de contrôle d’accès.
 #. AccessIT ne produit pas les équipements de sécurité, mais les assemble et les installe.
 #. Les logiciels contrôlant ces équipements sont développés par AccessIT à la demande pour chaque site.
 #. L'équipe informatique de AccessIT est assez limitée actuellement. 
 #. Avec l'augmentation de la demande, AccessIT doit faire appel à des prestataires extérieurs pour répondre à ses clients.
-#. La conception de certaines versions de iAccess sera donc confiée à MIAGE Grenoble.
-#. Un certain nombre de contraintes techniques ont été déjà mentionnées : les développements devront se faire en Angular pour le frontend, J2EE pour le backend avec un SGBD Oracle.
+#. La conception de certaines versions de AirLocksControl sera donc confiée à MIAGE Grenoble.
+#. Des contraintes techniques ont été déjà mentionnées : les développements devront se faire en AngularJS pour le frontend, J2EE pour le backend avec un SGBD Oracle.
 #. Le choix de ces technologie est lié au fait que AccessIT les utilise déjà ces technologies.
 #. Pour le matériel de sécurité, AccessIT a passé un accord avec Bissis.
 #. Bissis est un constructeur proposant du matériel à la pointe de l'innovation.
@@ -41,12 +41,12 @@ En ce début de projet, les parties prenantes sont les suivantes :
 #. AccessIT et Bissis ont passé un accord pour mettre sur le marché des bissas le plus rapidement possible.
 #. Bissis sera donc partie prenante pour le projet et fournira les bissas, avec leurs drivers.
 #. Une prochaine réunion aura lieu dans les locaux de Bissis à Berlin pour étudier les bissas.
-#. Différentes organisations ont déjà contacté AccessIT pour la mise en place de iAccess.
+#. Différentes organisations ont déjà contacté AccessIT pour la mise en place de AirLocksControl.
 #. L'entreprise chimique Chimiotis désire sécuriser son site de Morrocoy.
 #. AccessIT a aussi été contactée par Ryokan, une entreprise qui gère des EHPAD.
-#. Plusieurs universités indiennes voudraient également migrer vers iAccess en 2023.
+#. Plusieurs universités indiennes voudraient également migrer vers AirLocksControl en 2023.
 #. Les commerciaux de AccessIT prévoient une augmentation exponentielle des demandes au prochain trimestre.
-#. Chaque version de iAccess sera conçue et développée de façon incrémentale, en commençant par les fonctionnalités les plus demandées par les clients.
+#. Chaque version de AirLocksControl sera conçue et développée de façon incrémentale, en commençant par les fonctionnalités les plus demandées par les clients.
 #. AccessIT a décidé d'imposer l'utilisation d'UML pour la conception de ce projet (et d'autres projets).
 #. Plus particulièrement un accord a été passé avec Docaposte/Softeam (Paris) pour des licences Modelio.
 #. AccessIT utilisera une démarche agile pour s'assurer de l'adéquation du système avec les besoins des sites.

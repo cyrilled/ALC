@@ -21,7 +21,7 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Chimiotis, la société gérante désire s’équiper de bissass pour son système d’accès sécurisé.
 #. Grâce aux bissas, cette installation a été considérée comme viable par AccessIT.
 #. AccessIT et Bissis seront les seuls à pouvoir équiper des sites avec des bissas.
-#. Il s'agit donc d'un prospect chaud pour iAccess.
+#. Il s'agit donc d'un prospect chaud pour AirLocksControl.
 #. Les différents types de bissas ont été choisis en fonction du niveau de sécurité à atteindre.
 #. Il est rappelé qu'une présentation des bissas aura lieu à Berlin - Bissis.
 #. Un premier plan sécurité a été créé à partir des informations fournies par Chimiotis.
@@ -69,7 +69,7 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Les autorisations sont définies à l'année.
 #. Cette année, selon un exemple donné par ELL, le groupe GY peut accéder aux zones PT et PO en semaine de 8h à 12h pendant l'été.
 #. Et GX peut accéder aux zones SD et X le week-end de 16h à 23h de mars à avril.
-#. Il faudra absolument définir des autorisations plus fines dans iAccess pour représenter ce genre de périodes.
+#. Il faudra absolument définir des autorisations plus fines dans AirLocksControl pour représenter ce genre de périodes.
 #. Dans tous les cas pour une période un groupe peut accéder toujours aux mêmes zones (cf. CR003Fig2_).
 #. Une autorisation doit être un triplet (groupe, période, zones).
 #. Par exemple, en reprenant l'exemple donné par ELL, on doit pouvoir définir deux autorisations comme suit.
@@ -84,26 +84,26 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
         | OuvrNuit | xxMAxxxxxxxx xxxxxSD 16:00-23:00 | U1,X |
         +----------+----------------------------------+------+
 
-#. Les autorisations sous forme de triplets pourraient aussi convenir a priori pour les autres sites gérés par iAccess.
+#. Les autorisations sous forme de triplets pourraient aussi convenir a priori pour les autres sites gérés par AirLocksControl.
 #. Il s'agit en effet d'une représentation générale et sans doute satisfaisante.
 
 #. Comme sur tous les sites, les gardiens peuvent aller dans toutes les zones dont la salle de contrôle.
 #. Ils peuvent depuis leur smartphone débloquer l’accès ou la sortie d’une personne bloquée suite à un incident.
 #. Un élément important à Morrocoy concerne les règles à appliquer en cas d'incendie dans une zone.
 #. Tous les points d'accès doivent être ouverts automatiquement.
-#. Il faudra donc prendre en compte les systèmes à incendie et les interfacer avec iAccess.
+#. Il faudra donc prendre en compte les systèmes à incendie et les interfacer avec AirLocksControl.
 #. Actuellement l'usine est gardée par 60 gardiens, 24h/24.
-#. Avec iAccess on estime que 4 gardiens seraient suffisants, d'où 12 en 3x8.
+#. Avec AirLocksControl on estime que 4 gardiens seraient suffisants, d'où 12 en 3x8.
 
 #. Comme pour les autres sites, le serveur de contrôle sera installé dans la salle de contrôle.
 
-#. La conservation de l'historique des événements étant imposée par la réglementation du Vénézuéla, cette fonctionnalité devra être intégrée dans iAccess.
+#. La conservation de l'historique des événements étant imposée par la réglementation du Vénézuéla, cette fonctionnalité devra être intégrée dans AirLocksControl.
 
-#. Un web service permettra à des systèmes externes (e.g. systèmes de paie / de contrôle de présence) d'importer les événements d'accès de iAccess (horaire d'entrée pour chaque point d'accès).
+#. Un web service permettra à des systèmes externes (e.g. systèmes de paie / de contrôle de présence) d'importer les événements d'accès de AirLocksControl (horaire d'entrée pour chaque point d'accès).
 #. Ce web service devra être sécurisé pour des aspects de confidentialité mais aussi de sécurité (e.g. heures d'accès des gardiens, etc).
 
 #. En conclusion, la visite sur le site de Morrocy a été très instructive.
-#. Il correspond bien aux fonctionnalités de base d'iAccess.
-#. AccesIT confirme son intérêt de développer une version d'iAccess pour ce site.
+#. Il correspond bien aux fonctionnalités de base d'AirLocksControl.
+#. AccesIT confirme son intérêt de développer une version d'AirLocksControl pour ce site.
 #. Cette version sera la première développée et sa conception sera faite au plus vite par MIAGE Grenoble.
 #. La prochaine réunion se fera à Neuilly - Ryokan.

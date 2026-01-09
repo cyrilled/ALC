@@ -20,14 +20,13 @@ Nouvelles parties prenantes :
 #. La réunion a eu lieu dans les locaux de Bissis.
 #. Bissis est sur le point de commercialiser des sas de sécurité révolutionnaires.
 #. Ces systèmes physiques seront prochainement commercialisés sous le nom de *Bissas*.
-#. Bissis souhaite accélérer la mise sur le marché des bissas et souhaite donc intégrer le consortium pour
-   participer à l'élaboration de iAccess.
-#. Il est entendu que Bissis fournira ces Bissas et pour chaque modèle un driver logiciel pour l'intégrer à iAccess
+#. Bissis souhaite accélérer la mise sur le marché des bissas et souhaite donc intégrer le consortium pour participer à l'élaboration de AirLocksControl.
+#. Il est entendu que Bissis fournira ces Bissas et pour chaque modèle un driver logiciel pour l'intégrer à AirLocksControl
 #. Par contre un problème est vite apparu pendant la réunion.
 #. Il sera impossible de voir les bissas avant au moins deux mois, et cela pour des problèmes de confidentialité.
 #. Vu les très nombreuses innovations, de multiples brevets sont en cours d'acquisition et ce procédé est long.
 #. La direction ne souhaite prendre aucun risque de fuites et même en interne seuls certains employés (e.g. YBI) ont une vision globale des bissas tel qu'ils seront présentés dans quelques mois.
-#. Après quelques échanges et discussions animées, il est apparu que ce ne devrait cependant pas être un problème pour iAccess.
+#. Après quelques échanges et discussions animées, il est apparu que ce ne devrait cependant pas être un problème pour AirLocksControl.
 #. Bissis fournira des simulateurs pour que puissent commencer les tests lorsque nécessaires.
 #. Toutes les parties logicielles sur le serveur applicatif pourront être réalisées en amont grâce à la simulation des bissas et des caméras pilotées par les drivers à installer sur le serveur de contrôle.
 #. AccessIT, qui travaille depuis longtemps avec Bissis, est confiant dans cette démarche.

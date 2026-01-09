@@ -32,6 +32,6 @@ Nouvel intervenant, directeur de l'EHPAD Rives de Seine à Neuilly :
 #. - en cas d'incendie, les portes d'accès extérieurs aux bâtiments seront ouvertes automatiquement
 #. En conclusion, la visite sur dans l'EHPAD a été assez rapide, car les besoins sont assez similaires à Morrocoy.
 #. Mais surtout des bissas avec lecteur de température fiables ne sont pas encore disponibles.
-#. AccessIT a des doutes sur le développement d'une version de iAccess pour ce site. 
+#. AccessIT a des doutes sur le développement d'une version de AirLocksControl pour ce site. 
 #. Ryokan de son côté doit rediscuter la question en interne
 #. La prochaine réunion aura lieu comme prévu à Berlin - Bissis.
