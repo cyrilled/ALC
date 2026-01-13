@@ -3,7 +3,7 @@ CR001 Réunion de lancement de AirLocksControl
 
 :Date: 02-01 08h-10h
 :Type: Réunion
-:Lieu: Grenoble-AccessIT
+:Lieu: Grenoble-ControlIT
 :Parties prenantes: ABI, JDR, KWG, MPA, PSO, TNA, ZSH
 :Organisateur: ABI
 :Rapporteur: KWG
@@ -16,40 +16,40 @@ CR001 Réunion de lancement de AirLocksControl
 
 En ce début de projet, les parties prenantes sont les suivantes :
  - Ahmed BLASI (ABI) – MIAGE, Grenoble
- - Jean-Claude DUFOUR (JDR) - AccessIT, Grenoble
+ - Jean-Claude DUFOUR (JDR) - ControlIT, Grenoble
  - Ken WONG (KWG) – MIAGE, Grenoble
- - Mireille PALMA (MPA) – AccessIT, Lisbonne
- - Paolo SANTIAGO SANCHEZ (PSO) – AccessIT, Caracas
- - Hong SHI (HSI) – AccessIT, Zurich
- - Tararya NARAMANATA (TNA) – AccessIT, Nantes
- - Zork SWISH (ZSH) – AccessIT, Autriche
+ - Mireille PALMA (MPA) – ControlIT, Lisbonne
+ - Paolo SANTIAGO SANCHEZ (PSO) – ControlIT, Caracas
+ - Hong SHI (HSI) – ControlIT, Zurich
+ - Tararya NARAMANATA (TNA) – ControlIT, Nantes
+ - Zork SWISH (ZSH) – ControlIT, Autriche
  - Cassandra COHEN (CCN) - MIAGE, Grenoble
 
-#. Le présent projet a été baptisé AirLocksControl.
-#. La demande pour des systèmes de contrôle d'accès de sites et de bâtiments encore plus sécurisés se développe pour des sites publics (stades, salles de concert) que privés (usines chimiques, laboratoires de biologie, centrales nucléaires). C'est une opportunité commerciale majeure pour les sociétés de sécurité comme AccessIT.
-#. La société AccessIT est spécialisée dans les systèmes de contrôle d’accès.
-#. AccessIT ne produit pas les équipements de sécurité, mais les assemble et les installe.
-#. Les logiciels contrôlant ces équipements sont développés par AccessIT à la demande pour chaque site.
-#. L'équipe informatique de AccessIT est assez limitée actuellement. 
-#. Avec l'augmentation de la demande, AccessIT doit faire appel à des prestataires extérieurs pour répondre à ses clients.
+#. Le présent projet a été baptisé AirLocksControl. Il pourra être abrégé en ALC.
+#. La demande pour des systèmes de contrôle d'accès de sites et de bâtiments hautement sécurisés se développe pour des sites publics (stades, salles de concert) que privés (usines chimiques, laboratoires de biologie, centrales nucléaires). 
+#. C'est une opportunité commerciale majeure pour les sociétés de sécurité comme ControlIT, spécialisée dans les systèmes de contrôle d’accès.
+#. Pour chaque client, ControlIT développe des systèmes informatique de sécurité spécifiques.
+#. Ils fonctionnent avec des matériels de contrôle qu'elle achète et installe chez le client.
+#. L'équipe informatique de ControlIT est assez limitée actuellement.
+#. Avec l'augmentation de la demande, ControlIT doit faire appel à des prestataires extérieurs pour répondre à ses clients.
 #. La conception de certaines versions de AirLocksControl sera donc confiée à MIAGE Grenoble.
-#. Des contraintes techniques ont été déjà mentionnées : les développements devront se faire en AngularJS pour le frontend, J2EE pour le backend avec un SGBD Oracle.
-#. Le choix de ces technologie est lié au fait que AccessIT les utilise déjà ces technologies.
-#. Pour le matériel de sécurité, AccessIT a passé un accord avec Bissis.
-#. Bissis est un constructeur proposant du matériel à la pointe de l'innovation.
-#. En particulier AccessIT a décidé de se baser des bissas (sas à deux portes) pour toutes ses offres.
-#. AccessIT et Bissis ont passé un accord pour mettre sur le marché des bissas le plus rapidement possible.
-#. Bissis sera donc partie prenante pour le projet et fournira les bissas, avec leurs drivers.
-#. Une prochaine réunion aura lieu dans les locaux de Bissis à Berlin pour étudier les bissas.
-#. Différentes organisations ont déjà contacté AccessIT pour la mise en place de AirLocksControl.
-#. L'entreprise chimique Chimiotis désire sécuriser son site de Morrocoy.
-#. AccessIT a aussi été contactée par Ryokan, une entreprise qui gère des EHPAD.
-#. Plusieurs universités indiennes voudraient également migrer vers AirLocksControl en 2023.
-#. Les commerciaux de AccessIT prévoient une augmentation exponentielle des demandes au prochain trimestre.
-#. Chaque version de AirLocksControl sera conçue et développée de façon incrémentale, en commençant par les fonctionnalités les plus demandées par les clients.
-#. AccessIT a décidé d'imposer l'utilisation d'UML pour la conception de ce projet (et d'autres projets).
-#. Plus particulièrement un accord a été passé avec Docaposte/Softeam (Paris) pour des licences Modelio.
-#. AccessIT utilisera une démarche agile pour s'assurer de l'adéquation du système avec les besoins des sites.
+
+#. Les outils de développement à utiliser pour ALC sont les outils habituels de ControlIT : frontend en Angular, backend en JAVA, données persistantes avec JPA, SpringData et Oracle.
+#. De même intégration continue  se fera avec GitLab, l'orchestrateur JENKINS et SonarQube
+Des contraintes techniques ont été déjà mentionnées : les développements devront se faire en AngularJS pour le frontend, J2EE pour le backend avec un SGBD Oracle.
+#. Pour la conception de systèmes informatiques, ControlIT a passé un accord Docaposte/Softeam (Paris) pour un serveur Modelio.
+#. ALC sera donc conçu avec les les modèles d'exigences et UML proposé par Modelio.
+
+#. Pour le matériel de sécurité, ControlIT a passé un accord avec Bissis qui propose une gamme de sas de sécurité très performants.
+#. Bissis sera donc partie prenante pour le projet et fournira les sas de sécurité, avec leurs drivers.
+#. Une prochaine réunion aura lieu dans les locaux de Bissis à Berlin pour étudier leur offre de sas de sécurité.
+
+#. Différentes organisations ont déjà contacté ControlIT pour la mise en place de AirLocksControl.
+#. L'entreprise chimique Chimiotis désire sécuriser son site de Morrocoy pour décembre 2027.
+#. World Athletics doit également sécuriser les 21e championnats du monde d'athlétisme en septembre 2027.
+#. ControlIT a aussi été contactée par Ryokan, une entreprise qui gère des EHPAD.
+#. Plusieurs étatsuniennes voudraient également migrer vers AirLocksControl en 2027.
+#. Chaque version de AirLocksControl sera conçue et développée avec une démarche agile, basée sur SCRUM.
+#. ControlIT utilisera une démarche agile pour s'assurer de l'adéquation du système avec les besoins des sites.
 #. La prochaine réunion aura lieu à l'usine Chimiotis de Morrocoy.
-#. En conclusion, il a été observé que ce consortium international ne pourrait fonctionner qui si toutes les parties prenantes parviennent à participer et à mettre en œuvre leur savoir-faire.
-#. Les différentes parties prenantes sont toutes conscientes des opportunités commerciales apportées par le contexte sécuritaire et sanitaire.
+#. En conclusion, ce consortium international ne pourrait fonctionner qui si toutes les parties prenantes parviennent à se coordonner pour mettre en œuvre ensemble leur savoir-faire.

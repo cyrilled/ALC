@@ -1,37 +1,87 @@
-CR003 Réunion iAcces pour Ryokan
-===================================
+	CR003 Réunion AirLocksControl pour le stade national de Pékin
+=====
 
-:Date: 02-24 8h-11h
-:Type: Réunion
-:Lieu: Neuilly - EHPAD Rives de Seine de Ryokan
+:Date: 01-05 08h-22h
+:Type: Reunion
+:Lieu: Pekin
 :PartiesPrenantes: ABI, JDR, PSO, AGO
 :Organisateur: ABI
 :Rapporteur: KWG
-:Presents: ABI, JDR, PSO, AGO, EDT
-:Objectifs: Cas d'étude EHPADs de Ryokan
+:Presents: ABI, JDR, PSO, AGO
+:Objectifs: Attentes pour le stade national de Pékin
 
 .. attention::
     Ce compte rendu est un *document de travail* et n'est pas contractuel.
 
-Nouvel intervenant, directeur de l'EHPAD Rives de Seine à Neuilly :
- - Etienne Dumont (EDT) - Neuilly, Ryokan
 
-#. La réunion a eu lieu à l'EHPAD Rives de Seine à Neuilly guidé par EDT.
-#. Ryokan a besoin de s’équiper d'un système de contrôle d'accès, du fait des épisodes d'épidémie de grippe et le COVID qui représentent des risques pour ces populations.
-#. L'EHPAD Rives de Seine à Neuilly est bâti suivant le plan général des EHPAD de Ryokan et pourra servir d'exemple pour les autre EHPAD de l'entreprise.
-#. Le plan du rez-de chaussée d'une unité est donné ci-dessous
-    .. figure:: media/plan-rdc.png
+#. Nouvel intervenant :
+#. _ Apito GUARACARUMBO (AGO) - Competis, Pekin
+#. La réunion a eu lieu sur le site du stade national de Pékin (en chinois : 北京国家体育场 Běijīng Guójiā Tǐyùchǎng)guidé par AGO.
+#. Son accès doit être hautement sécurisé pour fin 2026 afin d'accueillir les championnats du monde d'athlétisme 2027.
+#. ControlIT et Bissis seront les seuls à pouvoir équiper des sites avec des sas de sécurité hautement sécurisés.
+#. Un plan des installations a été fourni par Competis.
+#. A partir de la visite du site et de ce plan, un premier plan sécurité a été établi.
+#. Les différents points d'accès et le nombre des sas de sécurité a été déterminé par ControlIT.
+#. De même pour le positionnement des caméras et de la salle de contrôle.
+
+    .. _CR002Fig1:
+
+    .. figure:: media/stade.png
         :align: center
 
-        Fig. 1 : Rives de Seine - Plan du rez-de-chaussée
+        Fig. 1 : Le stade national de Pékin
 
-#. Les conditions d'accès sont similaires à l'usine de Morrocoy : groupes gérés, équipe soignantes qui font les 3/8, accès avec des bissas.
-#. Il y a cependant des différences
-#. - l'accès au bâtiment se ferait après contrôle de la température corporelle dans le bissas et sans identification physique à la seconde porte. Une identification de la proximité du badge d'accès suffira à la seconde porte.
-#. - l'accès aux pièces à l'intérieur de l'EHPAD (salles, chambres, bureaux, cuisine, locaux techniques, ..) se ferait par de simples portes à contrôle d'accès, sans nécessairement enregistrer les passages. La sortie des pièces sera libre, sans contrôle.
-#. - en cas d'incendie, les portes d'accès extérieurs aux bâtiments seront ouvertes automatiquement
-#. En conclusion, la visite sur dans l'EHPAD a été assez rapide, car les besoins sont assez similaires à Morrocoy.
-#. Mais surtout des bissas avec lecteur de température fiables ne sont pas encore disponibles.
-#. AccessIT a des doutes sur le développement d'une version de AirLocksControl pour ce site. 
-#. Ryokan de son côté doit rediscuter la question en interne
-#. La prochaine réunion aura lieu comme prévu à Berlin - Bissis.
+#. Les différentes zones du site ont été représentées sur le plan de sécurité.
+#. Par contre les bâtiments, installations et autres espaces non sécurisés n'y sont pas.
+#. De même pour les entrées de véhicules et autres entrées gérées par des vigiles.
+#. Les différents types de sas de sécurité ont été choisis en fonction du niveau de sécurité à atteindre.
+#. Il est rappelé qu'une présentation des sas de sécurité aura lieu à Berlin - Bissis.
+#. Différents groupes de personnes autorisées devront être définis.
+#. Par exemple les spectateurs auront des billets papier.
+#. Ils ne pourront accéder qu'à la tribune correspondant à leur billet.
+#. Cette autorisation n'est valide que pour la période correspondant à l'épreuve du billet.
+#. Un exemple de billet a été fourni par Competis et reproduit ci-dessous.
+
+    .. _CR002Fig2:
+
+    .. figure:: media/billet.png
+        :align: center
+
+        Fig. 2 : Exemple de billet faisant office de badge grâce au QR code
+
+#. Pendant les championnats du monde d'athlétisme, les athlètes accéderont au village sportif, au restaurant, et à leur bâtiment.
+#. Ils pourront aussi aller en salle de presse et à l'administration de 8h à 17h.
+#. Par contre l'accès au sous-sol sportif et à l'arène ne leur sera pas autorisé tout le temps.
+#. Ce sera uniquement le cas si une épreuve de leur discipline est en cours.
+
+#. Différents autres groupes de personnes ont été évoqués dans ce cas.
+#. Par exemple les administratifs et les journalistes ont chacun leurs zones.
+#. Le gestion des groupes sera identique à celles de Chimiotis, avec un administrateur et des gestionnaires de groupes. 
+#. Par exemple les administrateurs d'un sport pourront éditer leurs badges papier (avec leur QR Code) et définir les zones auxquelles ils ont accès et à quels moments.
+#. Les administrateurs de presse s'occuperont des badges des journalistes, etc.
+
+#. Des vigiles sont affectés dans des groupes spécifiques de vigiles, avec des autorisation adéquates.
+#. En cas de personne bloquée dans un sas suite à un incident, ils pourront depuis leur appli ALC sur smartphone agir pour la débloquer.
+
+#. Les tickets numériques sur smartphone donnant accès aux compétitions pour les spectateurs seront émis par un système en ligne. Ils comprendront eux aussi un QR Code (cf. CR002Fig2_)
+#. Dans une telle compétition, on attend en effet environ 100 000 spectateurs.
+#. Plus de 400 000 billets seront sans doute émis (mais pas forcément utilisés).
+#. Le système en ligne CyberCompetition (par Competis) sera en charge de l'émission des billets.
+#. De façon générale des logiciels externes (e.g. CyberCompetition) devront pouvoir gérer les membres d’un groupe, comme ajouter des spectateurs à des compétitions pour lesquels des billets ont été émis par CyberCompetition.
+#. Pour la transmission par un logiciel à AirLocksControls des informations de gestion d’un groupe, seules certaines informations seront nécessaires
+#. Il a été convenu qu'un format XML soit utilisé dans ce cadre.
+#. Le fichier d’exemple ci-dessous a été fourni par Competis.
+
+    .. _CR002Fig3:
+
+    .. figure:: media/import.png
+        :align: center
+
+        Fig. 3 : Exemple de fichier généré par Competis - Exemple Competis 01_05
+
+#. La transmission des données entre CyberCompetition et AirLocksControls devra se faire via une API sécurisée.
+#. En conclusion, la visite sur le site du stade olympique de Tokyo a été très instructive.
+#. Il correspond très bien aux fonctionnalités de base que devra permettre AirLocksControls.
+#. ControlIT confirme son intérêt de développer une version d'AirLocksControl pour ce site.
+#. Cette version sera la première développée et sa conception sera faite au plus vite par MIAGE Grenoble.
+#. La prochaine réunion se fera à Berlin - Bissis.
