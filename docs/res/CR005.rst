@@ -19,6 +19,7 @@ CR005 Architecture et contraintes techniques
 #. Ce serveur permet de gérer en temps réel les matériels en les commandant par leurs drivers
 #. Le serveur d'applications doit être plus ou moins puissant selon le volume de données à gérer et le nombre de transactions à mettre en œuvre.
 #. De tels clients devront pouvoir être gérés avec AirLocksControl.
+#. _
 #. Les vigiles seront équipés de smartphones Huawei pour gérer les incidents.
 #. C'est un grand changement car jusque-là des appareils spécialisés ou des postes fixes étaient utilisés.
 #. Les applis des smartphones des vigiles seront connectées au serveur applicatif via une connexion sécurisée https et un réseau wifi interne sécurisé.

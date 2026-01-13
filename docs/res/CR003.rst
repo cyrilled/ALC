@@ -19,6 +19,7 @@ CR003 Réunion AirLocksControl pour le stade national de Pékin
 #. La réunion a eu lieu sur le site du stade national de Pékin (en chinois : 北京国家体育场 Běijīng Guójiā Tǐyùchǎng)guidé par AGO.
 #. Son accès doit être hautement sécurisé pour fin 2026 afin d'accueillir les championnats du monde d'athlétisme 2027.
 #. ControlIT et Bissis seront les seuls à pouvoir équiper des sites avec des sas de sécurité hautement sécurisés.
+#. _
 #. Un plan des installations a été fourni par Competis.
 #. A partir de la visite du site et de ce plan, un premier plan sécurité a été établi.
 #. Les différents points d'accès et le nombre des sas de sécurité a été déterminé par ControlIT.
@@ -36,6 +37,7 @@ CR003 Réunion AirLocksControl pour le stade national de Pékin
 #. De même pour les entrées de véhicules et autres entrées gérées par des vigiles.
 #. Les différents types de sas de sécurité ont été choisis en fonction du niveau de sécurité à atteindre.
 #. Il est rappelé qu'une présentation des sas de sécurité aura lieu à Berlin - Bissis.
+#. _
 #. Différents groupes de personnes autorisées devront être définis.
 #. Par exemple les spectateurs auront des billets papier.
 #. Ils ne pourront accéder qu'à la tribune correspondant à leur billet.
@@ -53,16 +55,16 @@ CR003 Réunion AirLocksControl pour le stade national de Pékin
 #. Ils pourront aussi aller en salle de presse et à l'administration de 8h à 17h.
 #. Par contre l'accès au sous-sol sportif et à l'arène ne leur sera pas autorisé tout le temps.
 #. Ce sera uniquement le cas si une épreuve de leur discipline est en cours.
-
+#. _
 #. Différents autres groupes de personnes ont été évoqués dans ce cas.
 #. Par exemple les administratifs et les journalistes ont chacun leurs zones.
 #. Le gestion des groupes sera identique à celles de Chimiotis, avec un administrateur et des gestionnaires de groupes. 
 #. Par exemple les administrateurs d'un sport pourront éditer leurs badges papier (avec leur QR Code) et définir les zones auxquelles ils ont accès et à quels moments.
 #. Les administrateurs de presse s'occuperont des badges des journalistes, etc.
-
+#. _
 #. Des vigiles sont affectés dans des groupes spécifiques de vigiles, avec des autorisation adéquates.
 #. En cas de personne bloquée dans un sas suite à un incident, ils pourront depuis leur appli ALC sur smartphone agir pour la débloquer.
-
+#. _
 #. Les tickets numériques sur smartphone donnant accès aux compétitions pour les spectateurs seront émis par un système en ligne. Ils comprendront eux aussi un QR Code (cf. CR002Fig2_)
 #. Dans une telle compétition, on attend en effet environ 100 000 spectateurs.
 #. Plus de 400 000 billets seront sans doute émis (mais pas forcément utilisés).
@@ -80,6 +82,7 @@ CR003 Réunion AirLocksControl pour le stade national de Pékin
         Fig. 3 : Exemple de fichier généré par Competis - Exemple Competis 01_05
 
 #. La transmission des données entre CyberCompetition et AirLocksControls devra se faire via une API sécurisée.
+#. _
 #. En conclusion, la visite sur le site du stade olympique de Tokyo a été très instructive.
 #. Il correspond très bien aux fonctionnalités de base que devra permettre AirLocksControls.
 #. ControlIT confirme son intérêt de développer une version d'AirLocksControl pour ce site.

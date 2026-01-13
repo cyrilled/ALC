@@ -27,6 +27,7 @@ Nouvelles parties prenantes :
 #. L'utilisation d'une spécification UML a été soulignée comme un point essentiel dans ce contexte tendu.
 #. Il a été convenu que MIAGE Grenoble fournirait rapidement des scénarios qui serviront à écrire les tests de la version pour Chimiotis.
 #. Il s'agit bien entendu de tester tous les scénarios de passage : sans incident ou avec incident générant des alarmes envoyées aux vigiles.
+#. _
 #. Pour comprendre le fonctionnement des sas de sécurité, Bissis renvoie vers un système proposé par un de ses concurrents.
 #. Les sas de sécurité ressembleront *par certains côtés* au système "Cilindro Bibussola" de AllUserIndustrie_:
 
@@ -39,11 +40,13 @@ Nouvelles parties prenantes :
 
 #. Le Bibussola n'est là qu'à titre d'illustration ; les sas de sécurité de Bissis ont de nombreuses différences.
 #. Le matériel est extrêmement performant (à condition que les contrôles logiciels suivent).
+#. _
 #. Les sas de sécurité sont symétriques
 #. Ils possèdent systématiquement des lecteurs sur les deux faces extérieures (contrairement aux Bibussolas).
 #. Ils peuvent ainsi contrôler à la fois l’entrée et la sortie.
 #. Ce qui permet à tout moment de savoir qui est présent dans une zone.
 #. Cette fonction est nécessaire entre autres en cas d'incendie ou d'accident industriel (par exemple à Chimiotis).
+#. _
 #. Les lecteurs des sas de sécurité lisent des QR Codes standards.
 #. Ils sont équipés d'une LED qui peut prendre trois couleurs (vert, orange, rouge).
 #. Tout comme le Cilindro Bibussola, les sas de sécurité possèdent un détecteur de présence à l'intérieur du sas qui peut détecter la présence ou l'absence d'une personne, la présence d'objet en métal et si plus d'une personne est dans le sas de sécurité (piggybacking)
@@ -56,8 +59,8 @@ Nouvelles parties prenantes :
 
 #. En fait les sas de sécurité sont entièrement contrôlés par le driver fourni par Bissis (API fournie en annexe).
 #. Ces drivers seront installés sur le serveur de contrôle.
+#. _
 #. Bissis propose deux types de sas de sécurité, les sas de sécurité Xtra et les sas de sécurité Meta.
-
 #. Les sas de sécurité Xtra permettent une haute sécurité mais sont plus lents que les Meta.
 #. Ces sas de sécurité sont préconisés par ControlIT pour l'usine de Morrocoy.
 #. Ils permettent d'être sûr (à 98%) que la personne est bien la personne associée au badge.
@@ -68,7 +71,7 @@ Nouvelles parties prenantes :
 #. Si la personne n'est pas autorisée à sortir un incident sera généré par le sas de sécurité Xtra.
 #. la personne sera alors bloqué dans le sas et devra attendre qu'un vigile vienne le débloquer.
 #. Il en sera de même si le détecteur de métaux intégré dans les Xtra se déclenche.
-
+#. _
 #. Les sas de sécurité Astra sont destinés à recevoir un public important.
 #. C'est pour cela que AccessIT préconise leur utilisation au stade national de Pékin.
 #. Les bisas Xtra sont écartés car leur débit est insuffisant.
@@ -79,19 +82,19 @@ Nouvelles parties prenantes :
 #. Ce feu tricolore permet de montrer le prochain sas de sécurité Astra disponible (voyant orange).
 #. Pour cela, un détecteur de présence à l’intérieur fait passer le feu à l'orange lorsqu'un badgeur est entré dans le sas de sécurité et que la seconde porte s’ouvre.
 #. En fait, une fois de plus, ce genre de fonctionnalités est prédéfini et intégré au sas de sécurité et ne sont pas commandés par le driver de sas de sécurité depuis le serveur de contrôle.
-
+#. _
 #. AccessIT insiste de nouveau sur le fait que différents scénarios devront donner lieu à des incidents envoyés aux vigiles.
 #. C'est le cas par exemple si un badgeur ne sort pas du sas au bout de 5 secondes.
 #. C'est également le cas si quelqu'un bloque une porte (avec un pied ou autre).
-
+#. _
 #. Les sas ASTRA comme XTra comprennent à l'intérieur un haut-parleur permettant de diffuser des messages audio prédéfinis
-
+#. _
 #. Bissis propose également d'autres éléments matériels pour la sécurité.
 #. Des caméras directionnelles C800 pourront être installées comme option d'AirLocksControl.
 #. Les vigiles devront pouvoir à tout moment les réorienter à distance.
 #. Les plans de sécurité proposés par AccessIT pour Morrocoy et Pékin sont déjà basés sur l'utilisation de ce matériel.
 #. Cependant pour des raisons de délai, les caméras ne seront pas connectées à AirLocksControl pour la première version du logiciel
-
+#. _
 #. Il doit y avoir une salle de contrôle par site ; elle contient le serveur de contrôle.
 #. Il s'agit d'un matériel spécialisé quasi temps réel auquel de multiples câbles sont connectés sur un panneau de brassage (jusqu'à des centaines sur certains sites).
 #. Ce serveur de contrôle devra être connecté au serveur applicatif via une liaison TCP/IP sécurisée.
@@ -100,6 +103,7 @@ Nouvelles parties prenantes :
 #. De plus, le matériel n'étant pas disponible à ce jour, il est essentiel de préparer les scénarios à prendre en compte et de les spécifier de manière rigoureuse.
 #. Bissis fournira des simulateurs matériels pilotables par le driver fourni.
 #. Dans un premier temps des tests seront ainsi effectués à partir des scénarios fournis par IM2AG.
+#. _
 #. Une réunion est prévue (03-18) pour discuter des points non abordés jusque-là et notamment de l'architecture de déploiement.
 
 .. ............................................................................

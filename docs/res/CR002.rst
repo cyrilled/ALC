@@ -33,28 +33,28 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 
 #. Les différentes zones du site ont été représentées sur le plan de sécurité.
 #. Les bâtiments, installations et autres espaces non sécurisés n'y figurent pas, ainsi que les entrées de véhicules et autres entrées gérées par des gardiens.
-
+#. _
 #. Le site Morrocoy accueille les salariés de l'entreprise. 
 #. Chaque employés sera intégré automatiquement dans ALC par le système de GRH de Chimiotis.
-
+#. _
 #. Différents groupes de personnes autorisées devront être définis.
 #. On estime qu'il y aura environ 30 groupes.
 #. Des groupes ont été déjà identifiés mais d'autres pourraient apparaître.
-
+#. _
 #. Un administrateur unique pourra créer des gestionnaires de groupes.
 #. Un gestionnaire de groupe pourra créer et gérer autant de groupes qu'il le souhaite.
 #. Bien entendu les administrateurs de groupe ne pourront pas donner à un groupe l'accès à des zones dont il n'est pas chargé. 
-
+#. _
 #. L'administrateur sera aussi responsable de donner aux gestionnaires de groupe des droits sur des zones sur site.
 #. Par exemple, un gestionnaire de groupe ayant des droits sur les zones U1 et U2 pourra donner des autorisations d'accès sur ces zones aux groupes qu'il gère.
-
+#. _
 #. Un gestionnaire de groupe pourra aussi affecter des badges aux employés et définir les zones auxquelles ont accès les membres des groupes et à quels moments. 
-
+#. _
 #. Le nombre de personnes par groupe va de 1 à 300 environ.
 #. Les ouvriers font les 3 x 8 mais de manière relativement régulière.
 #. Les membres de chaque groupe sont finalement assez stables.
 #. En effet le personnel de l'usine ne change que rarement et les accès des groupes aux zones sont basés sur des règles relativement stables.
-
+#. _
 #. Ci-dessous un exemple de plan d'autorisation fourni par l'administration de Chemiotis.
 
     .. _CR003Fig2:
@@ -89,18 +89,18 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. De telle autorisations pourraient aussi convenir a priori pour les autres sites gérés par AirLocksControl.
 #. Il s'agit en effet d'une façon générale considérer les autorisations sans doute satisfaisante.
 #. Bien entendu, les interfaces d'ALC n'utiliseront pas des codages comme xxxxxxJASxxx et LMMJVxx pour définir et présenter les mois et les jours de la semanie.
-
+#. _
 #. Un élément important à Morrocoy concerne les règles à appliquer en cas d'incendie dans une zone.
 #. Tous les points d'accès doivent être ouverts automatiquement.
 #. Il faudra donc prendre en compte les systèmes à incendie et les interfacer avec AirLocksControl.
-
+#. _
 #. Comme pour les autres sites, le serveur de contrôle sera installé dans la salle de contrôle.
-
+#. _
 #. La conservation de l'historique des événements étant imposée par la réglementation du Vénézuéla, cette fonctionnalité devra être intégrée dans AirLocksControl.
-
+#. _
 #. Enfin un web service permettra à des systèmes externes (e.g. systèmes de paie / de contrôle de présence) d'importer les événements d'accès de AirLocksControl (horaire d'entrée/sortie pour chaque point d'accès).
 #. Ce web service devra être sécurisé pour des aspects de confidentialité aussi bien que de sécurité du site.
-
+#. _
 #. En conclusion, la visite sur le site de Morrocy a été très instructive.
 #. Il correspond bien aux fonctionnalités de base d'AirLocksControl.
 #. Cependant les incertitudes actuelles aux Venezuela obligent à remettre le développement d'une version d'AirLocksControl pour ce site.
