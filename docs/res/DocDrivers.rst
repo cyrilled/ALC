@@ -1,12 +1,12 @@
-Annexe - Documentation technique des bissas
-===========================================
+Annexe - Documentation technique des drivers des sas
+================================================
 
 :Type: Documentation technique
 :Organisateur: ABI
 :Auteur: CDS
 :Objectif: Documenter le fonctionnement logiciel des bissas
 
-Ce document présente l'installation et le fonctionnement des drivers de bissas
+Ce document présente l'installation et le fonctionnement des drivers des sas
 
 #. DRIVERS DES BISSAS
 #. #####
