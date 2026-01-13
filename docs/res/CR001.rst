@@ -35,7 +35,7 @@ En ce début de projet, les parties prenantes sont les suivantes :
 #. La conception de certaines versions de AirLocksControl sera donc confiée à MIAGE Grenoble.
 
 #. Les outils de développement à utiliser pour ALC sont les outils habituels de ControlIT : frontend en Angular, backend en JAVA, données persistantes avec JPA, SpringData et Oracle.
-#. De même intégration continue  se fera avec GitLab, l'orchestrateur JENKINS et SonarQube
+#. De même l'intégration continue se fera avec GitLab, l'orchestrateur JENKINS et SonarQube
 Des contraintes techniques ont été déjà mentionnées : les développements devront se faire en AngularJS pour le frontend, J2EE pour le backend avec un SGBD Oracle.
 #. Pour la conception de systèmes informatiques, ControlIT a passé un accord Docaposte/Softeam (Paris) pour un serveur Modelio.
 #. ALC sera donc conçu avec les les modèles d'exigences et UML proposé par Modelio.
