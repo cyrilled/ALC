@@ -33,16 +33,17 @@ En ce début de projet, les parties prenantes sont les suivantes :
 #. L'équipe informatique de ControlIT est assez limitée actuellement.
 #. Avec l'augmentation de la demande, ControlIT doit faire appel à des prestataires extérieurs pour répondre à ses clients.
 #. La conception de certaines versions de AirLocksControl sera donc confiée à MIAGE Grenoble.
-
+#. _
+#. Les outils de développement à utiliser pour ALC sont les outils habituels de ControlIT : frontend en Angular, backend en JAVA, données persistantes avec JPA, SpringData et Oracle.
 #. De même l'intégration continue se fera avec GitLab, l'orchestrateur JENKINS et SonarQube
 #. Des contraintes techniques ont été déjà mentionnées : les développements devront se faire en AngularJS pour le frontend, J2EE pour le backend avec un SGBD Oracle.
 #. Pour la conception de systèmes informatiques, ControlIT a passé un accord Docaposte/Softeam (Paris) pour un serveur Modelio.
 #. ALC sera donc conçu avec les les modèles d'exigences et UML proposé par Modelio.
-
+#. _
 #. Pour le matériel de sécurité, ControlIT a passé un accord avec Bissis qui propose une gamme de sas de sécurité très performants.
 #. Bissis sera donc partie prenante pour le projet et fournira les sas de sécurité, avec leurs drivers.
 #. Une prochaine réunion aura lieu dans les locaux de Bissis à Berlin pour étudier leur offre de sas de sécurité.
-
+#. _
 #. Différentes organisations ont déjà contacté ControlIT pour la mise en place de AirLocksControl.
 #. L'entreprise chimique Chimiotis désire sécuriser son site de Morrocoy pour décembre 2027.
 #. World Athletics doit également sécuriser les 21e championnats du monde d'athlétisme en septembre 2027.
@@ -50,5 +51,7 @@ En ce début de projet, les parties prenantes sont les suivantes :
 #. Plusieurs étatsuniennes voudraient également migrer vers AirLocksControl en 2027.
 #. Chaque version de AirLocksControl sera conçue et développée avec une démarche agile, basée sur SCRUM.
 #. ControlIT utilisera une démarche agile pour s'assurer de l'adéquation du système avec les besoins des sites.
+#. _
 #. La prochaine réunion aura lieu à l'usine Chimiotis de Morrocoy.
+#. _
 #. En conclusion, ce consortium international ne pourrait fonctionner qui si toutes les parties prenantes parviennent à se coordonner pour mettre en œuvre ensemble leur savoir-faire.
