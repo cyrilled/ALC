@@ -23,7 +23,7 @@ En ce début de projet, les parties prenantes sont les suivantes :
  - Hong SHI (HSI) – ControlIT, Zurich
  - Tararya NARAMANATA (TNA) – ControlIT, Nantes
  - Zork SWISH (ZSH) – ControlIT, Autriche
- - Cassandra COHEN (CCN) - MIAGE, Grenoble
+ - Cassandra COHEN (CCN) - MIAGE, Grenoble 
 
 #. Le présent projet a été baptisé AirLocksControl. Il pourra être abrégé en ALC.
 #. La demande pour des systèmes de contrôle d'accès de sites et de bâtiments hautement sécurisés se développe pour des sites publics (stades, salles de concert) que privés (usines chimiques, laboratoires de biologie, centrales nucléaires). 
