@@ -14,8 +14,8 @@ CR003 Réunion ALC pour le stade national de Pékin
     Ce compte rendu est un *document de travail* et n'est pas contractuel.
 
 
-#. Nouvel intervenant :
-#. ###### Apito GUARACARUMBO (AGO) - Competis, Pekin
+#. Nouvel intervenant : Apito GUARACARUMBO (AGO) - Competis, Pékin
+#. ######
 #. La réunion a eu lieu sur le site du stade national de Pékin (en chinois : 北京国家体育场 Běijīng Guójiā Tǐyùchǎng)guidé par AGO.
 #. Son accès doit être hautement sécurisé pour fin 2026 afin d'accueillir les championnats du monde d'athlétisme 2027.
 #. ControlIT et Bissis seront les seuls à pouvoir équiper des sites avec des sas de sécurité hautement sécurisés.
