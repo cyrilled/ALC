@@ -104,5 +104,5 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. En conclusion, la visite sur le site de Morrocy a été très instructive.
 #. Il correspond bien aux fonctionnalités de base d'AirLocksControl.
 #. Cependant les incertitudes actuelles aux Venezuela obligent à remettre le développement d'une version d'AirLocksControl pour ce site.
-#. La prochaine réunion se fera à Pekin - Competis.
+#. La prochaine réunion se fera à Pékin - Competis.
 

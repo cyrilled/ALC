@@ -1,4 +1,4 @@
-CR001 Réunion de lancement de ALC
+uniCR001 Réunion de lancement de ALC
 =====================================
 
 :Date: 02-01 08h-10h
@@ -46,9 +46,9 @@ En ce début de projet, les parties prenantes sont les suivantes :
 #. _
 #. Différentes organisations ont déjà contacté ControlIT pour la mise en place de AirLocksControl.
 #. L'entreprise chimique Chimiotis désire sécuriser son site de Morrocoy pour décembre 2027.
-#. World Athletics doit également sécuriser les 21e championnats du monde d'athlétisme en septembre 2027.
+#. World Athletics doit également sécuriser les 21e championnats du monde d'athlétisme en septembre 2027 à Pékin.
 #. ControlIT a aussi été contactée par Ryokan, une entreprise qui gère des EHPAD.
-#. Plusieurs étatsuniennes voudraient également migrer vers AirLocksControl en 2027.
+#. Plusieurs entreprises étatsuniennes voudraient également migrer vers AirLocksControl en 2027.
 #. Chaque version de AirLocksControl sera conçue et développée avec une démarche agile, basée sur SCRUM.
 #. ControlIT utilisera une démarche agile pour s'assurer de l'adéquation du système avec les besoins des sites.
 #. _

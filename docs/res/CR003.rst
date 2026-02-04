@@ -16,12 +16,12 @@ CR003 Réunion ALC pour le stade national de Pékin
 
 #. Nouvel intervenant : Apito GUARACARUMBO (AGO) - Competis, Pékin
 #. ######
-#. La réunion a eu lieu sur le site du stade national de Pékin (en chinois : 北京国家体育场 Běijīng Guójiā Tǐyùchǎng)guidé par AGO.
+#. La réunion a eu lieu sur le site du stade national de Pékin (en chinois : 北京国家体育场 Běijīng Guójiā Tǐyùchǎng) guidé par AGO.
 #. Son accès doit être hautement sécurisé pour fin 2026 afin d'accueillir les championnats du monde d'athlétisme 2027.
 #. ControlIT et Bissis seront les seuls à pouvoir équiper des sites avec des sas de sécurité hautement sécurisés.
 #. ######
 #. Un plan des installations a été fourni par Competis.
-#. A partir de la visite du site et de ce plan, un premier plan sécurité a été établi.
+#. A partir de la visite du site et de ce plan, un premier plan des accés a été établi.
 #. Les différents points d'accès et le nombre des sas de sécurité a été déterminé par ControlIT.
 #. De même pour le positionnement des caméras et de la salle de contrôle.
 
@@ -58,7 +58,7 @@ CR003 Réunion ALC pour le stade national de Pékin
 #. ######
 #. Différents autres groupes de personnes ont été évoqués dans ce cas.
 #. Par exemple les administratifs et les journalistes ont chacun leurs zones.
-#. Le gestion des groupes sera identique à celles de Chimiotis, avec un administrateur et des gestionnaires de groupes. 
+#. Le gestion des groupes sera identique à celles de Chimiotis, avec un administrateur et des gestionnaires de groupes.
 #. Par exemple les administrateurs d'un sport pourront éditer leurs badges papier (avec leur QR Code) et définir les zones auxquelles ils ont accès et à quels moments.
 #. Les administrateurs de presse s'occuperont des badges des journalistes, etc.
 #. ######
@@ -82,6 +82,7 @@ CR003 Réunion ALC pour le stade national de Pékin
         Fig. 3 : Exemple de fichier généré par Competis - Exemple Competis 01_05
 
 #. La transmission des données entre CyberCompetition et AirLocksControls devra se faire via une API sécurisée.
+#. Les questions d'incendie, d'historisation des événements et d'import par des système externes seront identiques à Chimiotis, comme pour la gestion des groupes. 
 #. ######
 #. En conclusion, la visite sur le site du stade olympique de Tokyo a été très instructive.
 #. Il correspond très bien aux fonctionnalités de base que devra permettre AirLocksControls.
