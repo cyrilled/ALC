@@ -59,8 +59,8 @@ CR003 Réunion ALC pour le stade national de Pékin
 #. Différents autres groupes de personnes ont été évoqués dans ce cas.
 #. Par exemple les administratifs et les journalistes ont chacun leurs zones.
 #. Le gestion des groupes sera identique à celles de Chimiotis, avec un administrateur et des gestionnaires de groupes.
-#. Par exemple les administrateurs d'un sport pourront éditer leurs badges papier (avec leur QR Code) et définir les zones auxquelles ils ont accès et à quels moments.
-#. Les administrateurs de presse s'occuperont des badges des journalistes, etc.
+#. Par exemple les gestionnaires de groupe d'un sport pourront éditer leurs badges papier (avec leur QR Code) et définir les zones auxquelles ils ont accès et à quels moments.
+#. Les gestionnaires de groupe presse s'occuperont des badges des journalistes, etc.
 #. ######
 #. Des vigiles sont affectés dans des groupes spécifiques de vigiles, avec des autorisation adéquates.
 #. En cas de personne bloquée dans un sas suite à un incident, ils pourront depuis leur appli ALC sur smartphone agir pour la débloquer.
