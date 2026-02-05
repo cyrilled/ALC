@@ -39,7 +39,7 @@ CR003 Réunion ALC pour le stade national de Pékin
 #. Il est rappelé qu'une présentation des sas de sécurité aura lieu à Berlin - Bissis.
 #. ######
 #. Différents groupes de personnes autorisées devront être définis.
-#. Par exemple les spectateurs auront des billets sous forme numérique vendus par Competis.
+#. Par exemple des spectateurs auront des billets numériques vendus par Competis.
 #. Ils ne pourront accéder qu'à la tribune correspondant à leur billet.
 #. Cette autorisation n'est valide que pour la période correspondant à l'épreuve du billet.
 #. Un exemple de billet a été fourni par Competis et reproduit ci-dessous.
@@ -65,11 +65,10 @@ CR003 Réunion ALC pour le stade national de Pékin
 #. Des vigiles sont affectés dans des groupes spécifiques de vigiles, avec des autorisation adéquates.
 #. En cas de personne bloquée dans un sas suite à un incident, ils pourront depuis leur appli ALC sur smartphone agir pour la débloquer.
 #. ######
-#. Les tickets numériques sur smartphone donnant accès aux compétitions pour les spectateurs seront émis par un système en ligne. Ils comprendront eux aussi un QR Code (cf. CR002Fig2_)
+#. Les billets numériques sur smartphone donnant accès aux compétitions pour les spectateurs seront émis par un système en ligne. Ils comprendront eux aussi un QR Code (cf. CR002Fig2_)
 #. Dans une telle compétition, on attend en effet environ 100 000 spectateurs.
-#. Plus de 400 000 billets seront sans doute émis (mais pas forcément utilisés).
-#. Le système en ligne CyberCompetition (par Competis) sera en charge de l'émission des billets.
-#. De façon générale des logiciels externes (e.g. CyberCompetition) devront pouvoir gérer les membres d’un groupe, comme ajouter des spectateurs à des compétitions pour lesquels des billets ont été émis par CyberCompetition.
+#. Le système en ligne CyberCompetition (par Competis) sera en charge de l'émission des billets qu'il vendra en direct aux spectateurs ou à des organismes (par exemple des fédérations nationales, des clubs d'athlétisme).
+#. De façon générale des logiciels externes (comme CyberCompetition) devront pouvoir gérer les membres d’un groupe, comme ajouter des spectateurs à des compétitions pour lesquels des billets ont été émis par CyberCompetition.
 #. Pour la transmission par un logiciel à AirLocksControls des informations de gestion d’un groupe, seules certaines informations seront nécessaires
 #. Il a été convenu qu'un format XML soit utilisé dans ce cadre.
 #. Le fichier d’exemple ci-dessous a été fourni par Competis.
