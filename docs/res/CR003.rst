@@ -34,12 +34,12 @@ CR003 Réunion ALC pour le stade national de Pékin
 
 #. Les différentes zones du site ont été représentées sur le plan de sécurité.
 #. Par contre les bâtiments, installations et autres espaces non sécurisés n'y sont pas.
-#. De même pour les entrées de véhicules et autres entrées gérées par des vigiles.
+#. De même pour les entrées de véhicules et autres entrées gérées par des gardiens.
 #. Les différents types de sas de sécurité ont été choisis en fonction du niveau de sécurité à atteindre.
 #. Il est rappelé qu'une présentation des sas de sécurité aura lieu à Berlin - Bissis.
 #. ######
 #. Différents groupes de personnes autorisées devront être définis.
-#. Par exemple les spectateurs auront des billets papier.
+#. Par exemple les spectateurs auront des billets sous forme numérique vendus par Competis.
 #. Ils ne pourront accéder qu'à la tribune correspondant à leur billet.
 #. Cette autorisation n'est valide que pour la période correspondant à l'épreuve du billet.
 #. Un exemple de billet a été fourni par Competis et reproduit ci-dessous.
