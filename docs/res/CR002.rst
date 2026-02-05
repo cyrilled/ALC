@@ -44,7 +44,7 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Un administrateur unique pourra créer des gestionnaires de groupes.
 #. Un gestionnaire de groupe pourra créer et gérer autant de groupes qu'il le souhaite.
 #. _
-#. L'administrateur sera aussi responsable de donner aux gestionnaires de groupe des droits sur des zones sur site.
+#. L'administrateur sera aussi responsable de donner aux gestionnaires de groupe des droits sur des zones du site.
 #. Par exemple, un gestionnaire de groupe ayant des droits sur les zones U1 et U2 pourra donner des autorisations d'accès sur ces zones aux groupes qu'il gère.
 #. Bien entendu un administrateur de groupe ne pourra pas donner à un groupe l'accès à des zones sur laquelle il n'a pas de droits.
 #. _
