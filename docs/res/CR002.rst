@@ -43,10 +43,10 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. _
 #. Un administrateur unique pourra créer des gestionnaires de groupes.
 #. Un gestionnaire de groupe pourra créer et gérer autant de groupes qu'il le souhaite.
-#. Bien entendu les administrateurs de groupe ne pourront pas donner à un groupe l'accès à des zones dont il n'est pas chargé. 
 #. _
 #. L'administrateur sera aussi responsable de donner aux gestionnaires de groupe des droits sur des zones sur site.
 #. Par exemple, un gestionnaire de groupe ayant des droits sur les zones U1 et U2 pourra donner des autorisations d'accès sur ces zones aux groupes qu'il gère.
+#. Bien entendu un administrateur de groupe ne pourra pas donner à un groupe l'accès à des zones sur laquelle il n'a pas de droits.
 #. _
 #. Un gestionnaire de groupe pourra aussi affecter des badges aux employés et définir les zones auxquelles ont accès les membres des groupes et à quels moments. 
 #. _
@@ -67,7 +67,7 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. Les zones autorisées sont présentées pour chaque groupe à droite.
 #. A gauche sont représentées les périodes d'autorisation.
 #. Après discussion avec ELL, il apparait qu'il s'agit d'une version très simplifiée.
-#. Les autorisations ne sont pas toutes pour des périodes prédéfinies MTNDS (début de journée, fin de journée, nuit, jour, tout le temps) mais peuvent concerner d'autres horaires.
+#. Les autorisations ne sont pas toutes pour des périodes prédéfinies (début de journée, fin de journée, nuit, jour, tout le temps) comme dans l'exemple mais peuvent concerner d'autres horaires.
 #. ELL précise aussi que les autorisations sont définies pour une année civile et si besoin modifiée l'année suivante.
 #. Cette année, selon un exemple donné par ELL, le groupe Obreros2 peut aussi accéder aux zones PT et PO en semaine de 8h à 12h pendant l'été.
 #. Et Mantenimi peut accéder aux zones SD et X le week-end de 16h à 23h de mars à avril.
