@@ -46,7 +46,7 @@ Nouvel intervenant, directeur de l'usine à Morrocoy :
 #. _
 #. L'administrateur sera aussi responsable de donner aux gestionnaires de groupe des droits sur des zones du site.
 #. Par exemple, un gestionnaire de groupe ayant des droits sur les zones U1 et U2 pourra donner des autorisations d'accès sur ces zones aux groupes qu'il gère.
-#. Bien entendu un administrateur de groupe ne pourra pas donner à un groupe l'accès à des zones sur laquelle il n'a pas de droits.
+#. Bien entendu un gestionnaire de groupe ne pourra pas donner à un groupe l'accès à des zones sur laquelle il n'a pas de droits.
 #. _
 #. Un gestionnaire de groupe pourra aussi affecter des badges aux employés et définir les zones auxquelles ont accès les membres des groupes et à quels moments. 
 #. _
