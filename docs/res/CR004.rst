@@ -77,9 +77,9 @@ Nouvelles parties prenantes :
 #. Les bisas Xtra sont écartés car leur débit est insuffisant.
 #. Sachant que l'on envisage plus de 200 entrées ou sorties simultanément un soin tout particulier devra être apporté à cet aspect.
 #. Les sas de sécurité Astra permettent entre autres d'organiser des files d'attentes uniques par point d'accès.
-#. Ils sont munis d'un feu visible depuis la file indiquant l'état du sas de sécurité
-   (disponible = vert, rouge = utilisé, orange = bientôt libre).
-#. Ce feu tricolore permet de montrer le prochain sas de sécurité Astra disponible (voyant orange).
+#. Des groupes de 2 à 16 sas ASTRA seront alignés dans chaque point d’accès 
+#. Chaque sas ASTRA est munis d'un feu visible depuis la file indiquant son état (disponible = vert, rouge = utilisé, orange = bientôt libre).
+#. Ce feu tricolore permet de montrer le prochain sas de sécurité Astra disponible (voyant orange) sur le point d'accès.
 #. Pour cela, un détecteur de présence à l’intérieur fait passer le feu à l'orange lorsqu'un badgeur est entré dans le sas de sécurité et que la seconde porte s’ouvre.
 #. En fait, une fois de plus, ce genre de fonctionnalités est prédéfini et intégré au sas de sécurité et ne sont pas commandés par le driver de sas de sécurité depuis le serveur de contrôle.
 #. _
