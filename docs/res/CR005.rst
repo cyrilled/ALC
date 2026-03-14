@@ -43,7 +43,7 @@ CR005 Architecture et contraintes techniques
 #. Il s'agit dans les deux cas de PCs sous Linux Fedora.
 #. _
 #. Les gestionnaires de groupe gèrent non seulement les personnes et leurs inscriptions à des groupes, mais aussi les problèmes liés à la perte d'un badge.
-#. Lorsqu'un badge est perdu, volé (y compris via une agression), le personne est tenu d'en informer immédiatement son gestionnaire de groupe.
+#. Lorsqu'un badge est perdu, volé (y compris via une agression), la personne est tenue d'en informer immédiatement son gestionnaire de groupe.
 #. Un badge n'est associé qu'à une seule personne à la fois et une personne ne peut posséder qu'un badge (pour un site) à un moment donné.
 #. Les personnes sont connus au minimum par leur nom et leur prénom et un numéro d'identité national (NIN).
 #. Le NIN utilisé dépend des personnes et des pays considérés.
