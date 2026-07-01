@@ -35,5 +35,5 @@ Ce document présente l'installation et le fonctionnement des drivers des sas de
 #. -- Une fois lancée l'instance du driver de sas est en attente du passage d'un badge sur un de ses lecteur
 #. ######
 #. FONCTIONNEMENT EN CONTINU
-#. A la lecture d'un badge sur une de ses faces, le driver de sas appelle l'opération contrôlersas(face,qrcCode) où face est la face (A ou B) sur laquelle la lecture a été faite et qrCode est la valeur du QRCode lu. La méthode de cette opération va gérer le passage dans le sas.
+#. A la lecture d'un badge sur une de ses faces, le driver de sas appelle l'opération contrôlersas(face,qrCode) où face est la face (A ou B) sur laquelle la lecture a été faite et qrCode est la valeur du QRCode lu. La méthode de cette opération va gérer le passage dans le sas.
 
